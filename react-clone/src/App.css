@@ -1,0 +1,260 @@
+/* App.css */
+.body {
+  overflow: hidden;
+  line-height: 1.15;
+}
+
+.header {
+  background-color: #000;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  top: 0;
+  z-index: 100;
+}
+
+.logo img {
+  height: 48px;
+  margin-top: 7.5px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  position: relative;
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar ul li a:hover {
+  color: #c08f80;
+}
+
+.search {
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-video {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100%;
+  height: calc(100vw * (19 / 47));
+  overflow: hidden;
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay-image {
+  height: 160px;
+  position: absolute;
+  z-index: 1;
+  bottom: 110px;
+  right: 30px;
+}
+
+.subsection-1 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.riviera {
+  padding: 0px 350px;
+  line-height: 1.5;
+}
+
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  padding: 50px 300px;
+}
+
+.grid-container-1 p {
+  padding: 0 100px;
+}
+
+.subsection-2 {
+  background-color: #fcf7f6;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.grid-item-2 p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  padding: 0 75px;
+}
+
+.grid-item-2 {
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.subsection-3 {
+  text-align: center;
+  padding: 50px;
+}
+
+.subsection-3 p {
+  display: block;
+  line-height: 1.5;
+  padding: 0 300px;
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.grid-3-item:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.grid-3-item a {
+  padding: 15px;
+  color: #000;
+}
+
+.grid-3-item a:hover {
+  color: #c08f80;
+}
+
+a {
+  text-decoration: none;
+}
+
+button a {
+  color: #fff;
+}
+
+button {
+  margin-top: 25px;
+  font-size: 1rem;
+  padding: 10px 25px;
+  width: 100%;
+  max-width: 320px;
+  background-color: #dcc1b9;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #c08f80;
+}
+
+.instagram {
+  background-color: #fcf7f6;
+  padding: 75px 0;
+  text-align: center;
+  align-items: center;
+}
+
+.instagram img {
+  max-width: 95%;
+  padding: 15px;
+}
+
+.awards img {
+  background-color: white;
+  max-width: 95%;
+  padding: 40px;
+}
+
+.section-newsletter {
+  background-color: #f8edeb;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+}
+
+.b-corp {
+  height: 40px;
+  margin-left: 40px;
+  padding-left: 20px;
+  border-left: 1px solid #333;
+}
+
+Form {
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials img {
+  width: 25px;
+  padding: 50px 15px 15px;
+}
+
+.precautions {
+  font-size: smaller;
+}
+
+.footer {
+  color: #000;
+  font-weight: 100;
+  padding: 10px;
+}
+
+.footer a {
+  color: #000;
+}
+
+.grid-container-footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+}
